@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feane - Fast Food Book a able</title>
+  <link rel="icon" type="image/png" href="https://www.yiiframework.com/image/design/logo/yii3_sign_black.png">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/style.css"/>
+  </head>
+<body>
+  <style>
+        header{
+            background: linear-gradient(55deg, rgba(0, 0, 0, 0.936), rgba(90, 86, 86, 0.957));;
+        }
+       .dropdown_menu{
+         background-color:rgba(39, 38, 37, 0.3);
+       }
+    </style>
+   <header>
+        <nav class="navber">
+           <div class="logo">
+             <a href="#">Feane</a>
+           </div>
+           <ul class="links">
+            <li><a href="/pages/index.html" title="This is Home">HOME</a></li>
+            <li><a href="/pages/menu.html" title="This is Menu">MENU</a></li>
+            <li><a href="/pages/about.html" title="This is About">ABOUT</a></li>
+            <li><a href="/pages/book.html" title="This is Book Table">Book Table</a></li>
+            
+           </ul>
+           <div class="icon_and_btn_gap">
+            <li>
+            <i class="fa-solid fa-user"></i>
+            </li>
+            <li>
+               <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+            <li>
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li>
+                <a href="" class="action_btn">Get Started</a>
+            </li>
+           </div>
+           <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="dropdown_menu">
+            <li><a href="/pages/index.html">HOME</a></li>
+            <li><a href="/pages/menu.html">MENU</a></li>
+            <li><a href="/pages/about.html">ABOUT</a></li>
+            <li><a href="/pages/book.html">Book Table</a></li>
+            <div class="dropdown_menu_icon_display_flex">
+              <li><i class="fa-solid fa-user"></i></li>
+              <li><i class="fa-solid fa-cart-shopping"></i> </li>
+              <li> <i class="fa-solid fa-magnifying-glass"></i></li>
+            </div>
+            
+            <li><a href="" class="action_btn">Get Started</a></li>
+          </div>
+        </nav>
+    </header>
+     <section class="Book_A_able_main_contaner">
+      <div class="user-input-div">
+      <h2>Book A Table</h2>
+        <input type="text" placeholder="Your Name..">
+        <input type="text" placeholder="Your Phone Number.. ">
+        <input type="text" placeholder="Your Email..">
+        <input type="text" placeholder="How meny persons?">
+        <input type="text" id="dateInput" placeholder="Select a date.." onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'">
+         <div class="Book_now_btn"><a href="">Book Now</a></div>
+      </div>
+      <div class="maps-div">
+        <h2 ">Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d706025.3417793886!2d89.78103756067837!3d24.841887067798094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564d8ee3d6c3b9%3A0x87bc5962c691ec87!2sMymensingh%20Division!5e1!3m2!1sen!2sbd!4v1762254690412!5m2!1sen!2sbd"width="100%" height="350" style="border:2px solid black;border-radius: 7px;overflow: hidden;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+      
+    <section class="Our_Customers_box">
+      <h1 style="text-align: center;font-family: 'Great Vibes', cursive;word-spacing: 10px;color: black;font-size: 40px;">What Says Our Customers</h1>
+      <div class="customer_box_display_grid">
+        <div class="ditalse_and_img_main_box">
+          <div class="box_contaner_ditalse">
+            <i style="color: orange;">Our customers always share their amazing experiences with us. Their kind words inspire us to keep improving. We value their trust, satisfaction, and feedback that help us grow every single day.</i>
+            <h2 style="font-family: 'Great Vibes', cursive;color: rgb(255, 0, 212)">Nadim Mahmud</h2>
+            <h4 style="font-family: 'Great Vibes', cursive;color:  rgb(0, 229, 255);">magna aliqua</h4>
+         </div>
+         <div class="img_box">
+          <img src="/imges/nadim devlepar.jpeg" alt="man"width="120" height="120">
+         </div>
+        </div>
+        <div class="ditalse_and_img_main_box">
+          <div class="box_contaner_ditalse">
+            <i style="color: orange;">Our customers always share their amazing experiences with us. Their kind words inspire us to keep improving. We value their trust, satisfaction, and feedback that help us grow</i>    
+            <h2 style="font-family: 'Great Vibes', cursive;color: rgb(255, 0, 234);">Nadim Mahmud</h2>
+            <h4 style="font-family: 'Great Vibes', cursive;color:  rgb(0, 229, 255);">magna aliqua</h4>
+          </div>
+          <div class="img_box">
+            <img src="/imges/nadim devlepar.jpeg" alt="man"width="120" height="120">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer-bc-color">
+       <footer class="about_footer_display_grid">
+        <div class="footer_adrese_and_ditalse_box">
+            <h2>Contact Us</h2>
+            <div class="fa-bars-display-block">
+               <a href=""><i class="fa-solid fa-location-dot"></i>Location</a>
+               <a href=""><i class="fa-solid fa-phone"></i>Call +016080679154</a>
+               <a href=""><i class="fa-solid fa-envelope"></i>devloper5643@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer_adrese_and_ditalse_box">
+            <h2>Feane</h2>
+            <p>Feane Restaurant is located in Mymensingh. It offers delicious food, a cozy atmosphere, and excellent service for every visitor.</p>
+            <div class="fa-brands-div-color-cange">
+             <a href=""><i class="fa-brands fa-facebook"></i></a>
+             <a href=""><i class="fa-brands fa-instagram"></i></a>
+             <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+             <a href=""><i class="fa-brands fa-linkedin"></i></a>
+             <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+             
+        </div>
+        <div class="footer_adrese_and_ditalse_box">
+            <h2>Opening Hours</h2>
+            <p>Opening Hours</p>
+            <p>10.00 Am -10.00 Pm</p>
+        </div>
+     </footer>
+      <div class="footer-lest-contant-mt-text-align-center">
+           <p>© 2025 All Rights <span class="text-color-cange">Nadim By</span> Html Templates</p>
+        </div>
+    </div>
+  <script src="/js/my custom.js"></script>
+</body>
+</html>
